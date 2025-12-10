@@ -133,4 +133,6 @@ jobs:
         curl -v --user $MAVEN_USERNAME_A:$MAVEN_PASSWORD_A \
           -T target/$APP_LONG_NAME \
           -X PUT "$ARTIFACTORY_URL/artifactory/$JFROG_REPO_NAME/$APP_LONG_NAME"
+
+          
           
